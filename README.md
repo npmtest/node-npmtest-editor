@@ -1,6 +1,6 @@
 # npmtest-editor
 
-#### test coverage for  [editor (v1.0.0)](https://github.com/substack/node-editor)  [![npm package](https://img.shields.io/npm/v/npmtest-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-editor.svg)](https://travis-ci.org/npmtest/node-npmtest-editor)
+#### basic test coverage for  [editor (v1.0.0)](https://github.com/substack/node-editor)  [![npm package](https://img.shields.io/npm/v/npmtest-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-editor.svg)](https://travis-ci.org/npmtest/node-npmtest-editor)
 
 #### launch $EDITOR in your program
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-editor/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-editor/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-editor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-editor/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-editor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-editor/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-editor/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-editor/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-editor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-editor/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-editor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-editor/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
